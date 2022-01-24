@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button Neon Effect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"><div class="container"><a href = 'https://www.sazumiviki.com' class="btn anim">Halo</a></div>
+    <link rel="shortcut icon" href="https://dev.sazumiviki.com/neon" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap');
+
+body {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  background: rgb(228, 21, 21);
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  padding: .9em 1.2em;
+  color: #ff0000;
+  text-align: center;
+  font: 400 1.5em /1 'Outfit', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: 2px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: .7s cubic-bezier(.65,.69,.35,1.27);
+}
+
+.btn:hover{
+  box-shadow: 0 0 20px #ffffffcc;
+  background: #ffffff;
+  animation: jiggle 1.7s ease-in;
+  animation-iteration-count: 3;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin-top: 45vh;
+  animation: 1.5s up;
+}
+</style>
